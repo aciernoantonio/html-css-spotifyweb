@@ -20,6 +20,10 @@ aside{
     margin: auto;
 }
 
+aside li{
+    list-style: none;
+}
+
 /* #region main */
 
 #site_main{
@@ -41,10 +45,25 @@ aside{
 }
 
 .shortcut{
-    list-style: none;
     height: 4rem;
     background-color: violet;
     margin: 20px 0;
+}
+
+.playlist > h4{
+    background-color: violet;
+    height: 2rem;
+}
+
+.create{
+    margin: 15px 0;
+    background-color: violet;
+    height: 2rem;
+}
+
+.my_playlist{
+    height: 15rem;
+    background-color: violet;
 }
 
 
