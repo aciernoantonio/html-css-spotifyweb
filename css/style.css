@@ -1,5 +1,38 @@
+/* Common */
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+aside{
+    width: 17%;
+    background-color: aquamarine;
+}
+
+/* #region main */
+
+#site_main{
+    height: calc(100vh - 100px);
+    background-color: darkgrey;
+}
+
+.main_container{
+    width: 83%;
+    background-color: azure;
+}
+
+
+/* #endregion main */
+
+/* #region footer */
+
+#site_footer{
+    height: 100px;
+    background-color: cornflowerblue;
 }
