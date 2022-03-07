@@ -156,6 +156,15 @@ h3{
     margin-bottom: 20px;
 }
 
+/* popular artist */
+
+.popular_artist > .subtitle{
+    margin-bottom: 20px;
+}
+
+.popular_artist .cover{
+    border-radius: 50%;
+}
 
 /* #endregion main */
 
