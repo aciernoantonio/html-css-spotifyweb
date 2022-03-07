@@ -27,16 +27,21 @@ aside li{
 /* #region main */
 
 #site_main{
-    height: calc(100vh - 100px);
     background-color: darkgrey;
 }
 
 .main_container{
     width: 83%;
     background-color: azure;
+    height: calc(100vh - 100px);
 }
 
 /* aside */
+
+.sidebar{
+    flex-direction: column;
+    height: calc(100vh - 100px);
+}
 
 .logo{
     margin-top: 20px;
@@ -66,8 +71,26 @@ aside li{
     background-color: violet;
 }
 
+.bottom{
+    
+    margin-top: auto;
+}
+
+.install{
+    margin-top: 20px;
+    height: 1.5rem;
+    background-color: violet;
+}
+
+.user{   
+    height: 2rem;
+    background-color: violet;
+    margin: 20px 0;
+}
 
 /* #endregion main */
+
+
 
 /* #region footer */
 
