@@ -29,7 +29,21 @@ aside li{
     list-style: none;
 }
 
+/* #region header */
+
+.upgrade{
+    height: 100px;
+    width: 100%;
+    background-color: green;
+}
+
 /* #region main */
+
+.main_page{
+    height: calc(100vh - 200px);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
 
 #site_main{
     background-color: darkgrey;
@@ -38,7 +52,6 @@ aside li{
 .main_container{
     width: 83%;
     background-color: azure;
-    height: calc(100vh - 100px);
     position: relative;
 }
 
@@ -96,12 +109,6 @@ aside li{
 
 /* main part */
 
-.upgrade{
-    height: 100px;
-    background-color: coral;
-    position: sticky;
-}
-
 .navbar{
     margin-top: 20px;
     height: 2rem;
@@ -109,6 +116,12 @@ aside li{
 }
 
 /* recently played */
+
+h3{
+    height: 2rem;
+    margin: 2rem 0;
+    background-color: coral;
+}
 
 .recent > h3{
     height: 2rem;
@@ -137,6 +150,12 @@ aside li{
     background-color: coral;
 }
 
+/* created for */
+
+.created_for > .subtitle{
+    margin-bottom: 20px;
+}
+
 
 /* #endregion main */
 
@@ -145,6 +164,12 @@ aside li{
 /* #region footer */
 
 #site_footer{
+    position: relative;
+}
+
+.nav_footer{
     height: 100px;
+    width: 100%;
     background-color: cornflowerblue;
+    position: fixed;
 }
