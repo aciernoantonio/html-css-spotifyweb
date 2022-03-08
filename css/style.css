@@ -282,11 +282,13 @@ h2{
 
 /* popular artist */
 
+.popular_artist > h2,
 .popular_artist > .subtitle{
     margin-bottom: 20px;
 }
 
-.popular_artist .cover{
+.popular_artist .play,
+.popular_artist .album{
     border-radius: 50%;
 }
 
