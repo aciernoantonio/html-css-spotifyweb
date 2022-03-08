@@ -309,6 +309,7 @@ h2{
     background-color: var(--footer-color);
     position: fixed;
     justify-content: space-between;
+    align-items: center;
 }
 
 .left_menu{
@@ -330,7 +331,25 @@ h2{
 }
 
 .main_menu{
-    line-height: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.top{
+    align-items: center;
+}
+
+.top > i{
+    color: white;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 10px 0;
+}
+
+.top > i:nth-child(3){
+    font-size: 30px;
+    padding: 0 10px;
 }
 
 .bottom{
@@ -355,7 +374,7 @@ h2{
     width: 150px;
     background-color: #A3A3A3;
     position: absolute;
-    top: 13%;
+    top: 5%;
     left: 0;
     z-index: 1000;
 }
