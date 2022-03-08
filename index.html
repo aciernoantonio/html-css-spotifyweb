@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
     <title>Spotify</title>
 </head>
 <body>
@@ -15,43 +19,92 @@
 
         <aside>
 
-            <div class="sidebar flex margin">
+            <div class="sidebar flex">
 
-                <div class="logo"></div>
+                <div class="logo pd_left">
+
+                    <img src="./img/logo.svg" alt="">
+
+                </div>
                 <!-- /.logo -->
 
-                <ul class="shortcut">
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
+                <div class="shortcut flex">
+
+                    <div class="icon">
+
+                            <div class="pd_left">
+                                <img src="./img/home.svg" alt="">
+                            </div>
+        
+                            <div class="pd_left filter">
+                                <img src="./img/search.svg" alt="">
+                            </div>
+
+                            <div class="pd_left filter">
+                                <img src="./img/libreria.svg" alt="">
+                            </div>
+
+
+                    </div>
+
+                    <div class="sections">
+
+                            <div class="white">Home</div>
+                            <div>Cerca</div>
+                            <div>Add to Library</div>
+
+
+                    </div>
+
+                </div>
                 <!-- /.shortcut -->
 
-                <div class="playlist">
+                <div class="playlist pd_left">
 
-                    <h4></h4>
+                    <h4 class="white">PLAYLIST</h4>
 
-                    <div class="create"></div>
+                    <div class="create flex">
+                        
+                        <div class="add">
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+
+                        <div>Create Playlist</div>
+
+                    </div>
                     <!-- /.create -->
 
-                    <ul class="my_playlist">
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                        <li><a href="#"></a></li>
-                    </ul>
+                    <div class="my_playlist">
+
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        <div>Nuova Playlist</div>
+                        
+                    </div>
                     <!-- /.my_playlist -->
     
                 </div>
                 <!-- /.playlist -->
                 
-                <div class="bottom">
+                <div class="bottom pd_left">
 
-                    <div class="install"></div>
-                    <div class="user"></div>
+                    <div class="install flex">
+
+                        <img class="download filter" src="./img/download.svg" alt="">
+                        <div>Installa app</div>
+
+                    </div>
+
+                    <div class="user flex">
+
+                        <img src="./img/profile.svg" alt="">
+                        <h4 class="white">John Doe</h4>
+
+                    </div>
 
                 </div>
                 <!-- /.bottom -->
