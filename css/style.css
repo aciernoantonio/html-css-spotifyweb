@@ -274,6 +274,12 @@ h2{
     margin-bottom: 20px;
 }
 
+.created_for > h2,
+.created_for > .subtitle{
+    margin-bottom: 20px;
+}
+
+
 /* popular artist */
 
 .popular_artist > .subtitle{
