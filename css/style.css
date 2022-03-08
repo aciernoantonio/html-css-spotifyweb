@@ -300,11 +300,31 @@ h2{
 
 #site_footer{
     position: relative;
+    color: var(--aside-font-color);
 }
 
 .nav_footer{
     height: 80px;
     width: 100%;
-    background-color: cornflowerblue;
+    background-color: var(--footer-color);
     position: fixed;
+    justify-content: space-between;
+}
+
+.left_menu{
+    align-items: center;
+}
+
+.footer_cover{
+    width: 50px;
+    margin: 0 10px;
+}
+
+.footer_subtitle{
+    font-size: 0.75rem;
+    margin-right: 30px;
+}
+
+.folder{
+    margin-left: 10px;
 }
