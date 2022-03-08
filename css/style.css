@@ -49,30 +49,41 @@ aside{
     margin: auto;
 }
 
-/* #region header */
+
+/* #region main */
 
 .upgrade{
     height: 80px;
-    width: 100%;
-    background-color: green;
+    width: 83%;
+    background-color: var(--navbar-color);
+    position: fixed;
+    align-items: center;
+    justify-content: flex-end;
 }
 
-/* #region main */
+.upgrade a{
+    color: white;
+    font-size: 0.75rem;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 0.75rem 1.5rem;
+    margin-right: 1rem;
+}
 
 .main_page{
     height: calc(100vh - 160px);
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-#site_main{
-    background-color: darkgrey;
+    position: absolute;
+    right: 0;
+    top: 80px;
 }
 
 .main_container{
-    width: 83%;
-    background-color: azure;
     position: relative;
+    width: 83%;
+    background-color: var(--main-color);
 }
 
 /* aside */
@@ -139,6 +150,7 @@ aside{
 .install{
     margin-top: 20px;
     margin-right: 20px;
+    padding-bottom: 0.5rem;
     font-size: 0.75rem;
     align-items: center;
     border-bottom: 1px solid var(--aside-font-color);
