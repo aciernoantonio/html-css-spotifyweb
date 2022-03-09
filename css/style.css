@@ -378,3 +378,30 @@ h2{
     left: 0;
     z-index: 1000;
 }
+
+.right_menu{
+    align-items: center;
+    color: #A3A3A3;
+    margin-right: 10px;
+}
+
+.right_menu > i{
+    margin: 0 8px;
+}
+
+.volume_missing{
+    height: 4px;
+    width: 80px;
+    background-color: var(--aside-font-color);
+    position: relative;
+}
+
+.volume_state{
+    height: 4px;
+    width: 30px;
+    background-color: #A3A3A3;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: 1000;
+}
