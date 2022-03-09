@@ -38,7 +38,7 @@ a{
 }
 
 aside{
-    width: 17%;
+    width: 250px;
     background-color: black;
     color: var(--aside-font-color);
     font-size: 0.8rem;
@@ -65,7 +65,7 @@ a{
 
 .upgrade{
     height: 80px;
-    width: 83%;
+    width: calc(100% - 250px);
     background-color: var(--navbar-color);
     position: fixed;
     align-items: center;
@@ -96,7 +96,7 @@ a{
 
 .main_container{
     position: relative;
-    width: 83%;
+    width: calc(100% - 250px);
     background-color: var(--main-color);
 }
 
@@ -254,12 +254,6 @@ h2{
     margin: 2rem 0;
 }
 
-.recent > h3{
-    height: 2rem;
-    background-color: coral;
-    margin: 2rem 0;
-}
-
 .track{
     margin-right: 20px;
     flex-direction: column;
@@ -360,6 +354,7 @@ h2{
 
 .left_menu{
     align-items: center;
+    width: 20%;
 }
 
 .footer_cover{
@@ -392,6 +387,7 @@ h2{
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
+    width: 60%;
 }
 
 .top{
@@ -465,6 +461,7 @@ h2{
     align-items: center;
     color: #A3A3A3;
     margin-right: 10px;
+    width: 20%;
 }
 
 .right_menu > i{
@@ -513,3 +510,22 @@ h2{
     display: block;
 }
 
+@media screen and (max-width: 768px) {
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    .played{
+        flex-wrap: wrap;
+    }
+
+    .title{
+        width: 170px;
+    }
+
+    .nav_footer{
+        flex-wrap: wrap;
+    }
+   
+}
