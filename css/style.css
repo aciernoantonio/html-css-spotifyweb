@@ -196,10 +196,18 @@ a{
 .navbar div{
     display: inline-block;
     color: var(--aside-font-color);
+    position: relative;
 }
 
-.border{
+.border::after{
+    content: "";
     border-bottom: 2px solid var(--border-color);
+    display: table-cell;
+    width: 50px;
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
 }
 
 /* recently played */
