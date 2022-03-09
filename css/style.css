@@ -122,9 +122,18 @@ a{
     border-left: 2px solid var(--border-color);
 }
 
+.filtered{
+    filter: invert(70%) sepia(0%) saturate(165%) hue-rotate(211deg) brightness(250%) contrast(117%);
+}
+
 .sections{
     width: 80%;
     line-height: 35px;
+}
+
+.sections div:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .create{
@@ -136,8 +145,16 @@ a{
     font-size: 1rem;
 }
 
-.playlist > h4{
+.create > h4{
     font-size: 1rem;
+}
+
+.create:hover .create_playlist{
+    color: white;
+}
+
+.create:hover .add{
+    background-color: #D2D2D2;
 }
 
 .add{
@@ -152,9 +169,17 @@ a{
     margin-top: 10px;
 }
 
+.my_playlist > div:hover{
+    color: white;
+}
+
 .bottom{
     
     margin-top: auto;
+}
+
+.bottom:hover{
+    color: white;
 }
 
 .install{
