@@ -151,10 +151,12 @@ a{
 
 .create:hover .create_playlist{
     color: white;
+    cursor: pointer;
 }
 
 .create:hover .add{
     background-color: #D2D2D2;
+    cursor: pointer;
 }
 
 .add{
@@ -171,6 +173,7 @@ a{
 
 .my_playlist > div:hover{
     color: white;
+    cursor: pointer;
 }
 
 .bottom{
@@ -178,8 +181,9 @@ a{
     margin-top: auto;
 }
 
-.bottom:hover{
+.install:hover{
     color: white;
+    cursor: pointer;
 }
 
 .install{
