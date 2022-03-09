@@ -372,6 +372,18 @@ h2{
     margin-right: 30px;
 }
 
+.footer_subtitle:hover{
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.like > i:hover,
+.folder > i:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .folder{
     margin-left: 10px;
 }
