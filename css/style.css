@@ -81,6 +81,10 @@ a{
     margin-right: 1rem;
 }
 
+.upgrade a:hover{
+    font-size: 0.80rem;
+}
+
 .main_page{
     height: calc(100vh - 160px);
     overflow-x: hidden;
@@ -226,6 +230,11 @@ a{
     display: inline-block;
     color: var(--aside-font-color);
     position: relative;
+}
+
+.navbar div:hover{
+    color: white;
+    cursor: pointer;
 }
 
 .border::after{
