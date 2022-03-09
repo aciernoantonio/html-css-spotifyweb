@@ -468,6 +468,11 @@ h2{
     margin: 0 8px;
 }
 
+.left_icon{
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .right_menu > i:hover{
     color: white;
     cursor: pointer;
@@ -510,6 +515,31 @@ h2{
     display: block;
 }
 
+@media screen and (max-width: 992px) {
+
+    .navbar{
+        flex-wrap: wrap;
+    }
+
+    .played{
+        flex-wrap: wrap;
+    }
+
+    .title{
+        width: 170px;
+    }
+
+    .cover,
+    .play{
+        width: 150px;
+        height: 150px;
+    }
+
+    .track{
+        margin-right: 0px;
+    }
+}
+
 @media screen and (max-width: 768px) {
 
     .navbar{
@@ -524,8 +554,21 @@ h2{
         width: 170px;
     }
 
-    .nav_footer{
-        flex-wrap: wrap;
+    .right_menu,
+    .left_menu{
+        width: 100%;
+    }
+
+    .right_menu{
+        justify-content: flex-end;
+    }
+
+    .missing{
+        width: 100px;
+    }
+
+    .listened{
+        width: 50px;
     }
    
 }
