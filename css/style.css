@@ -471,6 +471,11 @@ h2{
     margin: 0 8px;
 }
 
+.right_menu > i:hover{
+    color: white;
+    cursor: pointer;
+}
+
 .volume_missing{
     height: 4px;
     width: 80px;
@@ -487,3 +492,24 @@ h2{
     left: 0;
     z-index: 1000;
 }
+
+.volume_track:hover .volume_state{
+    background-color: var(--border-color);
+}
+
+.point_volume{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    border-radius: 50%;
+    z-index: 1000;
+    position: absolute;
+    bottom: -72%;
+    left: 29%;
+    display: none;
+}
+
+.volume_track:hover .point_volume{
+    display: block;
+}
+
