@@ -598,6 +598,10 @@ h2{
         font-size: 15px;
     }
 
+    .point_track{
+        left: 57%;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -635,6 +639,11 @@ h2{
     .listened{
         width: 50px;
     }
+
+    .point_track{
+        left: 47%;
+    }
+
    
 }
 
