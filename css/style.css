@@ -112,13 +112,17 @@ a{
     width: 150px;
 }
 
+.logo > i{
+    display: none;
+}
+
 .shortcut{
     margin: 20px 0;
     align-items: center;
 }
 
 .icon{
-    width: 20%;
+    width: 44px;
     margin-right: 10px;
 }
 
@@ -401,14 +405,21 @@ h2{
 
 .top > i{
     color: white;
-    margin-right: 20px;
     font-size: 20px;
     padding: 10px 0;
 }
 
 .top > i:nth-child(3){
     font-size: 30px;
-    padding: 0 10px;
+    padding: 0 20px;
+}
+
+.top > i:nth-child(2){
+    padding-left: 20px;
+}
+
+.top > i:nth-child(4){
+    padding-right: 20px;
 }
 
 .top > i:nth-child(3):hover{
@@ -535,6 +546,10 @@ h2{
         width: 170px;
     }
 
+    .subtitle{
+        margin-bottom: 20px;
+    }
+
     .cover,
     .play{
         width: 150px;
@@ -544,6 +559,45 @@ h2{
     .track{
         margin-right: 0px;
     }
+}
+
+@media screen and (max-width: 882px) {
+
+    .cover{
+        width: 170px;
+        height: 170px;
+    }
+
+    .track{
+        margin-right: 20px;
+    }
+
+    .subtitle{
+        margin-bottom: 20px;
+    }
+    
+    .right_menu,
+    .left_menu{
+        width: 100%;
+    }
+
+    .play{
+        width: 170px;
+        height: 170px;
+    }
+
+    .missing{
+        width: 250px;
+    }
+
+    .listened{
+        width: 150px;
+    }
+
+    .top > i{
+        font-size: 15px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {
@@ -568,6 +622,11 @@ h2{
     .right_menu{
         justify-content: flex-end;
     }
+    
+    .play{
+        width: 170px;
+        height: 170px;
+    }
 
     .missing{
         width: 100px;
@@ -577,4 +636,179 @@ h2{
         width: 50px;
     }
    
+}
+
+@media screen and (max-width: 425px) {
+    aside{
+        width: 162px;
+    }
+
+    .upgrade{
+        width: calc(100% - 155px);
+    }
+
+    .upgrade > a{
+        font-size: 0.5rem;
+    }
+
+    .main_container{
+        width: calc(100% - 155px);
+    }
+
+    .navbar{
+        font-size: 0.75rem;
+    }
+
+    .navbar > div{
+        margin-bottom: 20px;
+    }
+
+    .cover{
+        width: 100px;
+        height: 100px;
+    }
+
+    .play{
+        width: 100px;
+        height: 100px;
+    }
+
+    .track{
+        margin-right: 10px;
+    }
+
+    .title{
+        width: 100px;
+    }
+
+    .track .subtitle{
+        width: 100px;
+        text-align: center;
+    }
+
+    .sections{
+        line-height: 22px;
+    }
+    
+    .left_icon{
+        display: none;
+    }
+
+    .volume_track{
+        display: none;
+    }
+}
+
+@media screen and (max-height: 550px) {
+    .my_playlist{
+        height: 130px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    aside{
+        width: 46px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icon div:first-child {
+        border-left: none;
+    }
+
+    .logo > img{
+        display: none;
+    }
+
+    .logo > i{
+        display: block;
+        font-size: 25px;
+        color: white;
+    }
+
+    .sections{
+        display: none;
+    }
+
+    .playlist{
+        display: none;
+    }
+
+    .install{
+        border: none;
+    }
+
+    .install > div{
+        display: none;
+    }
+
+    .download{
+        width: 20px;
+        height: 20px;
+    }
+
+    .user > h4{
+        display: none;
+    }
+
+    .upgrade{
+        width: calc(100% - 46px);
+    }
+
+    .upgrade > a{
+        font-size: 0.5rem;
+    }
+
+    .main_container{
+        width: calc(100% - 46px);
+    }
+
+    .navbar{
+        font-size: 0.75rem;
+    }
+
+    .navbar > div{
+        margin-bottom: 20px;
+    }
+
+    .cover{
+        width: 100px;
+        height: 100px;
+    }
+
+    .play{
+        width: 100px;
+        height: 100px;
+    }
+
+    .track{
+        margin-right: 10px;
+    }
+
+    .title{
+        width: 100px;
+    }
+
+    .track .subtitle{
+        width: 100px;
+        text-align: center;
+    }
+
+    .sections{
+        line-height: 22px;
+    }
+    
+    .left_icon{
+        display: none;
+    }
+
+    .right_menu > i:nth-child(2){
+        display: none;
+    }
+
+    .volume_track{
+        display: none;
+    }
 }
